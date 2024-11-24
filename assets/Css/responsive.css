@@ -1,0 +1,41 @@
+*{
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+}
+
+
+@media (max-width: 600px) {
+     .navbar nav .nav-links {
+          display: none;
+     }
+
+     .hero-title p {
+          display: none;
+     }
+
+     .hero-title {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .contact-form form button {
+          width: 50%;
+          font-size: 16.5px;
+
+     }
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+     .contact-form form button {
+          width: 35%;
+          font-size: 16.5px;
+
+     }
+}
+
+
+
+
+
